@@ -1,0 +1,259 @@
+<nav class="bg-white dark:bg-gray-800 antialiased">
+    <div class="max-w-screen-xl px-4 mx-auto 2xl:px-0 py-4">
+      <div class="flex items-center justify-between">
+  
+        <div class="flex items-center space-x-8">
+          <div class="shrink-0 flex items-center">
+            <a href="#" title="" class="">
+                <!-- <img class="block w-auto h-10 dark:hidden" src="tanjiro_icon.png" alt="Tanjiro Icon"> -->
+            </a>
+            <div class="text-2xl m-1"><span class="text-red-600 font-bold font-sans">Krt&</span> <span class=" font-light font-logo">Wear</span></div>
+          </div>
+          <ul class="hidden lg:flex items-center justify-start gap-6 md:gap-8 py-3 sm:justify-center">
+            <li>
+              <a routerLink="/landing/home"routerLinkActive="active" href="#" title="" class="flex text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                Home
+              </a>
+            </li>
+            <li class="shrink-0">
+              <a routerLink="/landing/mens"routerLinkActive="active" href="#" title="" class="flex text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                Mens
+              </a>
+            </li>
+            <li class="shrink-0">
+              <a routerLink="/landing/womens"routerLinkActive="active" href="#" title="" class="flex text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                Womens
+              </a>
+            </li>
+            <li class="shrink-0">
+              <a routerLink="/landing/electronics" routerLinkActive="active" href="#" title="" class="text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                Electronics
+              </a>
+            </li>
+            <li class="shrink-0">
+              <a routerLink="/landing/jewelery"routerLinkActive="active" href="#" title="" class="text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                Jewelry
+              </a>
+            </li>
+            <li class="shrink-0">
+              <a routerLink="/dashboard"routerLinkActive="active" href="#" title="" class="text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                Dashboard
+              </a>
+            </li>
+            <!-- <li class="shrink-0">
+              <a href="#" title="" class="text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                Sell
+              </a>
+            </li> -->
+          </ul>
+        </div>
+  
+        <div class="flex items-center lg:space-x-2">    
+          
+          <button id="myCartDropdownButton1" data-dropdown-toggle="myCartDropdown1" type="button" class="inline-flex items-center rounded-lg justify-center p-2 hover:bg-gray-100 dark:hover:bg-gray-700 text-sm font-medium leading-none text-gray-900 dark:text-white">
+            <span class="sr-only">
+              Cart
+            </span>
+            <svg class="w-5 h-5 lg:me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+            </svg> 
+            <span class="hidden sm:flex">My Cart</span>
+            <svg class="hidden sm:flex w-4 h-4 text-gray-900 dark:text-white ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
+            </svg>              
+          </button>
+  
+          <div id="myCartDropdown1" class="hidden z-10 mx-auto max-w-sm space-y-4 overflow-hidden rounded-lg bg-white p-4 antialiased shadow-lg dark:bg-gray-800">
+            <div class="grid grid-cols-2">
+              <div>
+                <a href="#" class="truncate text-sm font-semibold leading-none text-gray-900 dark:text-white hover:underline">Apple iPhone 15</a>
+                <p class="mt-0.5 truncate text-sm font-normal text-gray-500 dark:text-gray-400">$599</p>
+              </div>
+        
+              <div class="flex items-center justify-end gap-6">
+                <p class="text-sm font-normal leading-none text-gray-500 dark:text-gray-400">Qty: 1</p>
+        
+                <button data-tooltip-target="tooltipRemoveItem1a" type="button" class="text-red-600 hover:text-red-700 dark:text-red-500 dark:hover:text-red-600">
+                  <span class="sr-only"> Remove </span>
+                  <svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0Zm7.7-3.7a1 1 0 0 0-1.4 1.4l2.3 2.3-2.3 2.3a1 1 0 1 0 1.4 1.4l2.3-2.3 2.3 2.3a1 1 0 0 0 1.4-1.4L13.4 12l2.3-2.3a1 1 0 0 0-1.4-1.4L12 10.6 9.7 8.3Z" clip-rule="evenodd" />
+                  </svg>
+                </button>
+                <div id="tooltipRemoveItem1a" role="tooltip" class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700">
+                  Remove item
+                  <div class="tooltip-arrow" data-popper-arrow></div>
+                </div>
+              </div>
+            </div>
+
+            <a href="#" title="" class="mb-2 me-2 inline-flex w-full items-center justify-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800" role="button"> Proceed to Checkout </a>
+          </div>
+        <!-- Login button -->
+          <button type="button" class="inline-flex items-center rounded-lg justify-center p-2 hover:bg-gray-100 dark:hover:bg-gray-700 text-sm font-medium leading-none text-gray-900 dark:text-white">
+            <a  routerLink="/login">
+                <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-width="2" d="M7 17v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1a3 3 0 0 0-3-3h-4a3 3 0 0 0-3 3Zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                </svg>              
+            </a>
+          </button>
+          <button type="button" data-collapse-toggle="ecommerce-navbar-menu-1" aria-controls="ecommerce-navbar-menu-1" aria-expanded="false" class="inline-flex lg:hidden items-center justify-center hover:bg-gray-100 rounded-md dark:hover:bg-gray-700 p-2 text-gray-900 dark:text-white">
+            <span class="sr-only">
+              Open Menu
+            </span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
+            </svg>                
+          </button>
+        </div>
+      </div>
+  
+      <div id="ecommerce-navbar-menu-1" class="bg-gray-50 dark:bg-gray-700 dark:border-gray-600 border border-gray-200 rounded-lg py-3 hidden px-4 mt-4">
+        <ul class="text-gray-900  text-sm font-medium dark:text-white space-y-3">
+        
+            <li>
+                <a href="#" title="" class="flex text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                  Home
+                </a>
+              </li>
+              <li class="shrink-0">
+                <a href="#" title="" class="flex text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                  Mens
+                </a>
+              </li>
+              <li class="shrink-0">
+                <a href="#" title="" class="flex text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                  Womens
+                </a>
+              </li>
+              <li class="shrink-0">
+                <a href="#" title="" class="text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                  Electronics
+                </a>
+              </li>
+              <li class="shrink-0">
+                <a href="#" title="" class="text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                  Jewelry
+                </a>
+              </li>
+        </ul>
+
+        
+      </div>
+    </div>
+  </nav>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+  document.getElementById('myCartDropdownButton1').click();
+});
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="bg-gray-50 py-8 antialiased dark:bg-gray-900 md:py-12">
+    <div class="mx-auto max-w-screen-xl px-4 2xl:px-0">
+        <section class="bg-gray-50 dark:bg-gray-900 p-3 sm:p-5">
+            <div class="mx-auto max-w-screen-xl px-4 lg:px-12">
+                <!-- Start coding here -->
+                <div class="bg-white dark:bg-gray-800 relative shadow-md sm:rounded-lg overflow-hidden">
+                    <div class="flex flex-col md:flex-row items-center justify-between space-y-3 md:space-y-0 md:space-x-4 p-4">
+                        <div class="w-full md:w-1/2">
+                            <!-- Search -->
+                            <!-- <form class="flex items-center" (submit)="onSearch($event, searchInput.value)">
+                                <label for="simple-search" class="sr-only">Search</label>
+                                <div class="relative w-full">
+                                    <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                                        <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                                        </svg>
+                                    </div>
+                                    <input type="text" id="simple-search" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full pl-10 p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Search" required="">
+                                </div>
+                            </form> -->
+                        </div>
+                        <div class="w-full md:w-auto flex flex-col md:flex-row space-y-2 md:space-y-0 items-stretch md:items-center justify-end md:space-x-3 flex-shrink-0">
+                            <button (click)="openCreateDialog()" type="button" class="flex items-center justify-center text-white bg-blue-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800">
+                               
+                                Add product
+                            </button>
+                          
+                        </div>
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                          <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                            <tr>
+                              <th scope="col" class="px-1 py-3">Product name</th>
+                              <th scope="col" class="px-1 py-3">Category</th>
+                              <!-- <th scope="col" class="px-4 py-3">Description</th> -->
+                              <th scope="col" class="px-4 py-3">Price</th>
+                              <th scope="col" class="px-4 py-3">Rating</th>
+                              <th scope="col" class="px-4 py-3">
+                                <span class="sr-only">Actions</span>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr *ngFor="let product of products" class="border-b dark:border-gray-700">
+                              <td scope="row" class="px-1 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white flex items-center">
+                                <img src="{{product.image}}" alt="iMac Front Image" class="w-auto h-8 mr-3">
+                                {{ product.title }}</td>
+                              <td class="px-4 py-3">{{ product.category }}</td>
+                            
+                              <!-- <td class="px-4 py-3">{{ product.description }}</td> -->
+                              <td class="px-4 py-3">{{ product.price | currency }}</td>
+                              <td class="px-4 py-3">
+                                {{ product.rating.rate }} ({{ product.rating.count }} reviews)
+                              </td>
+                              <td class="px-4 py-3 flex items-center justify-end">
+                                <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                                    <mat-icon>more_vert</mat-icon>
+                                  </button>
+                                  <mat-menu #menu="matMenu">
+                                      <button (click)="openUpdateDialog(product)" mat-menu-item >
+                                          <mat-icon>edit</mat-icon>
+                                          <span >Update</span>
+                                        </button>
+                                        <button (click)="openDeleteDialog(product)" mat-menu-item>
+                                          <mat-icon >delete</mat-icon>
+                                          <span>Delete</span>
+                                        </button>
+                                    <!-- <button mat-menu-item>
+                                      <mat-icon>notifications_off</mat-icon>
+                                      <span>Disable alerts</span>
+                                    </button> -->
+                                  </mat-menu>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      
+                  
+                </div>
+            </div>
+            </section>
+    </div>
+   
+    
+
+
+
+
+
+
+
+
+
+   
+   
+  </section>
